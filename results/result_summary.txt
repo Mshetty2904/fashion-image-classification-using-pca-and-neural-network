@@ -1,0 +1,35 @@
+Fashion-MNIST PCA + MLP Results
+
+Original Features: 784
+Reduced Features: 50
+
+Dimensionality Reduction:
+93.62%
+
+Neural Network Architecture:
+Input Layer: 50
+Hidden Layer 1: 15
+Hidden Layer 2: 16
+Output Layer: 10
+
+Training Epochs:
+50
+
+Learning Rate:
+0.01
+
+Test Accuracy:
+Approximately 85%
+
+Best Performing Classes:
+- Trouser
+- Bag
+- Ankle Boot
+
+Most Challenging Classes:
+- Shirt
+- Pullover
+- Coat
+
+Key Insight:
+PCA preserved sufficient information for effective classification while dramatically reducing computational complexity.
